@@ -56,6 +56,10 @@ padding-bottom: 24px;
 }
 
 
+
+.header-link.carent {
+    color:#404BBF ;
+  }
 .carent::after {
     content: '';
     display: block;
@@ -699,6 +703,9 @@ border-color: #404BBF;
    color: #FFFFFF;
 }
 
+.but-modal-close{
+    
+}
  .modal {
         width: 408px;
         background-color: #FCFCFC;
@@ -710,9 +717,7 @@ border-color: #404BBF;
         padding: 72px 24px 24px;
             
     }
-.div-modal-close{
-    
-}
+
     .backdrob{
         transition-property: opacity, visibility;;
         transition-duration: 350ms;
