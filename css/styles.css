@@ -691,22 +691,46 @@ border-color: #404BBF;
 /* modal */
 
 .modal-close-icon{
-  
+  cursor: pointer;
    position: absolute; 
   
 }
 
+
 .use-close{
-   color: #1f1fab;
-   fill: #0b20e2;
+   
+   fill: #070707;
 }
 .use-close:hover{
-   fill: #404BBF;
-   color: #FFFFFF;
+   fill: #fafafa;
+   
 }
-
+.modal-bytton:hover .use-close{
+    fill:  #f3f3f9;
+}
+.modal-bytton{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    transition: 450ms;
+  }
+  .modal-bytton:hover,
+ .modal-bytton:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
+  }
 .but-modal-close{
     position: absolute;
+    cursor: pointer;
     width: 24px;
     height: 24px;
     border-radius: 13px;
@@ -724,6 +748,7 @@ border-color: #404BBF;
     }
 
     .backdrob{
+        left: 0;
         transition-property: opacity, visibility;;
         transition-duration: 350ms;
         transition-timing-function: linear;
@@ -735,6 +760,7 @@ border-color: #404BBF;
 }
   
 .modal-button {
+        cursor: pointer;
         width: 24px;
         height: 24px;
         border: 1px solid rgba(0, 0, 0, 0.1);
@@ -746,6 +772,7 @@ border-color: #404BBF;
         margin-left: auto;
         padding: 0;
     } 
+    
 
 .container-madal{
         padding-left: 25px;
@@ -796,14 +823,18 @@ border-color: #404BBF;
   position: absolute; 
  left: 20px;
  
+ 
+}
+.label-name{
+    margin-bottom: 18px;
 }
 .span-name{
+    
     color: #8E8F99;
     margin-top: 4px;
     font-size: 12px;
     font-family: Roboto;
-    line-height: 114%;
-    
+    line-height: 114%;  
 }
 
 .visuallyhidden {
@@ -850,14 +881,10 @@ border-color: #404BBF;
 }
 
 .modal-h{
-  font-family: Roboto; 
-  font-style: Medium;
   font-size: 16px;
-  line-height: 128%;
+  line-height: 24px;
   text-align: center;
-  padding-top: 24px;
-  padding-bottom: 16px;
- 
+  margin-bottom: 16px;
 }
 .a-policy {
     color: #4D5AE5
@@ -876,6 +903,8 @@ border-color: #404BBF;
     color: #FFFFFF;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     margin-top: 24px;
+    cursor: pointer;
+    font-weight: 500;
    
 }
 
@@ -884,16 +913,22 @@ border-color: #404BBF;
 }
 
 .input-wrap {
+    padding-top: 4px;
     margin-bottom: 8px;
+    
 }
 
 .modal-textarea-text {
+    font-size: 12px;
     color: #8E8F99
     ;
 }
 
+.order-input-send{
+    font-size: 12px;
+}
 .modal-icon {
-    margin-top: 9px;
+    margin-top: 13px;
     margin-left: 16px;
     
     
@@ -908,7 +943,7 @@ border-color: #404BBF;
 
 /* Subscribe */
 .div-sub{
-    margin-left: 80px;
+    margin-left: auto;
 }
 .h2-subscribe {
     color: #FFFFFF;
@@ -943,28 +978,15 @@ border-color: #404BBF;
     border-color: #4D5AE5;
     font-style: Button Text;
     font-style: Regular;
+    font-weight: 500;
+}
+
+.svg-subscribe{
+    position: absolute;
+   
 }
 
 
 
-.modal-bytton{
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    background-color: #E7E9FC;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    padding: 0;
-  }
-  .modal-bytton:hover,
- .modal-bytton:focus{
-    background-color: #404BBF;
-    color: #FFFFFF;
-  }
 /* checkbox  */
 
