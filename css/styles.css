@@ -691,12 +691,9 @@ border-color: #404BBF;
 /* modal */
 
 .modal-close-icon{
-  cursor: pointer;
-   position: absolute; 
+position: absolute; 
   
 }
-
-
 .use-close{
    
    fill: #070707;
@@ -709,6 +706,7 @@ border-color: #404BBF;
     fill:  #f3f3f9;
 }
 .modal-bytton{
+    cursor: pointer;
     position: absolute;
     top: 24px;
     right: 24px;
@@ -721,7 +719,9 @@ border-color: #404BBF;
     align-items: center;
     display: flex;
     padding: 0;
-    transition: 450ms;
+    
+    transition-duration: 350ms;
+    transition-timing-function: linear;
   }
   .modal-bytton:hover,
  .modal-bytton:focus{
@@ -799,6 +799,10 @@ border-color: #404BBF;
  border-color:  rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   color: #FCFCFC;
+
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+  
 }
 
 .order-input:focus{
@@ -823,10 +827,16 @@ border-color: #404BBF;
   position: absolute; 
  left: 20px;
  
+ transition-duration: 300ms;
+ transition-timing-function: linear;
+ 
  
 }
 .label-name{
-    margin-bottom: 18px;
+    margin-bottom: 8px;
+    display: block;
+    transition-duration: 300ms;
+    transition-timing-function: linear;
 }
 .span-name{
     
@@ -882,7 +892,7 @@ border-color: #404BBF;
 
 .modal-h{
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   text-align: center;
   margin-bottom: 16px;
 }
@@ -906,6 +916,7 @@ border-color: #404BBF;
     cursor: pointer;
     font-weight: 500;
    
+   
 }
 
 .div-but-send {
@@ -913,14 +924,14 @@ border-color: #404BBF;
 }
 
 .input-wrap {
-    padding-top: 4px;
-    margin-bottom: 8px;
+    margin-top: 4px;
+    
     
 }
 
 .modal-textarea-text {
     font-size: 12px;
-    color: #8E8F99
+    color: #8e9991
     ;
 }
 
@@ -929,9 +940,7 @@ border-color: #404BBF;
 }
 .modal-icon {
     margin-top: 13px;
-    margin-left: 16px;
-    
-    
+    margin-left: 16px; 
 }
 .order-input {
     height: 40px;
@@ -947,9 +956,9 @@ border-color: #404BBF;
 }
 .h2-subscribe {
     color: #FFFFFF;
-    font-family:  Roboto,  sans-serif;
+
     font-size: 16px;
-    font-style: Body Medium ;
+   
     margin-bottom: 16px;
 }  
 .onlin-subsc {
@@ -966,6 +975,7 @@ border-color: #404BBF;
     
 }
 .but-subscribe{
+    cursor: pointer;
     background-color: #4D5AE5;
     width: 165px;
     height: 40px;
@@ -975,7 +985,7 @@ border-color: #404BBF;
     display: flex;
     gap: 16px;
     color: #FFFFFF;
-    border-color: #4D5AE5;
+  
     font-style: Button Text;
     font-style: Regular;
     font-weight: 500;
@@ -984,6 +994,15 @@ border-color: #404BBF;
 .svg-subscribe{
     position: absolute;
    
+}
+
+.use-svg-modal{
+    width: 12px;
+    height: 12px;
+}
+.modal-icon{
+   width: 13px; 
+   height: 13px;
 }
 
 
