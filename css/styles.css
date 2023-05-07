@@ -916,7 +916,6 @@ position: absolute;
     cursor: pointer;
     font-weight: 500;
    
-   
 }
 
 .div-but-send {
@@ -985,7 +984,7 @@ position: absolute;
     display: flex;
     gap: 16px;
     color: #FFFFFF;
-  
+    border: none;
     font-style: Button Text;
     font-style: Regular;
     font-weight: 500;
@@ -1001,8 +1000,8 @@ position: absolute;
     height: 12px;
 }
 .modal-icon{
-   width: 13px; 
-   height: 13px;
+   width: 12px; 
+   height: 12px;
 }
 
 
